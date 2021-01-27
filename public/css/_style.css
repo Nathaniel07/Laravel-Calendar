@@ -1,0 +1,42 @@
+
+body {
+  background-color: rgb(245,245,245);
+}
+
+
+.navbar {
+  border-radius: 0;
+  padding: 1rem;
+}
+
+
+section {
+    padding: 0 2rem 0 2rem;
+}
+
+
+
+.panel > .panel-heading {
+    
+    background-color: transparent;
+
+}
+
+.event-form {
+  padding-top: 3rem;
+}
+
+input {
+  border-radius: 0 !important;
+  
+}
+
+button {
+  border-radius: .5rem !important;
+}
+
+
+
+.alert {
+  border-radius: 0;
+}
