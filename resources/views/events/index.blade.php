@@ -99,7 +99,7 @@
                         <tbody>
                           <?php foreach ($months as $month) :?>
                            
-                          	<?php echo session('event_name') ? in_array($month['days_id'], session('event_days')) == $month['days_id'] ? '<tr class="bg-success">' : '' : '' ?>
+                          	<?php echo session('event_name') ? in_array($month['days_id'], session('event_days')) == $month['days_id'] ? '<tr class="bg-success">' : '<tr>' : '<tr>' ?>
 
 	                            <td><?php echo $month['days']." ".$month['weekdays'] ?></td>
 	                            <td>
